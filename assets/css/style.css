@@ -73,11 +73,11 @@ a{
 
 #cover{
   text-align: center;
-  background: -webkit-linear-gradient(#217CC1, transparent 100%), #217CC1 url('assets/img/harborview.jpg') 100% no-repeat fixed;  
-  background: -moz-linear-gradient(#217CC1, transparent 100%), #217CC1 url('assets/img/harborview.jpg') 100% no-repeat fixed;  
-  background: -ms-linear-gradient(#217CC1, transparent 100%), #217CC1 url('assets/img/harborview.jpg') 100% no-repeat fixed;
-  background: -o-linear-gradient(#217CC1, transparent 100%), #217CC1 url('assets/img/harborview.jpg') 100% no-repeat fixed;  
-  background: linear-gradient(#217CC1, transparent 100%), #217CC1 url('assets/img/harborview.jpg') 100% no-repeat fixed;  
+  background: -webkit-linear-gradient(#217CC1, transparent 100%), #217CC1 url('../img/harborview.jpg') 100% no-repeat fixed;  
+  background: -moz-linear-gradient(#217CC1, transparent 100%), #217CC1 url('../img/harborview.jpg') 100% no-repeat fixed;  
+  background: -ms-linear-gradient(#217CC1, transparent 100%), #217CC1 url('../img/harborview.jpg') 100% no-repeat fixed;
+  background: -o-linear-gradient(#217CC1, transparent 100%), #217CC1 url('../img/harborview.jpg') 100% no-repeat fixed;  
+  background: linear-gradient(#217CC1, transparent 100%), #217CC1 url('../img/harborview.jpg') 100% no-repeat fixed;  
   font-size: 175%;  
   margin-top: 80px;
 }
