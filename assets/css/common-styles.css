@@ -1,0 +1,85 @@
+#page-cover, h2, figure, legend, footer{
+  text-align: center;	
+}
+
+#header, li:not(#signature) a{
+  list-style: none;
+}
+
+li a, #menu, #aboutDavid, figcaption, #errorMsg, input[type=submit], footer{
+  color: #fff;
+}
+
+nav ul li:not(:first-child) a, #page-cover > h2{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+header, li a, section, figure:not(.skill), input, textarea{
+  width: 100%;
+}
+
+#errorMsg, input, textarea, #aboutDavid{      
+  font-size: 12pt;
+}
+
+input[type=submit], #header > li:not(:first-child) a, #arrow:hover{
+  cursor: pointer;
+}
+
+header, footer{
+  left: 0;
+  right: 0;
+  background-color: #000;
+}
+
+/*=============================================
+           COMMON SOCIAL MEDIA STYLES 
+=============================================*/
+#fb, #git, #ln{    
+  width: 45px;
+  height: 45px;   
+  margin: 0 2.5em;
+  background-color: #000;   
+  display: inline-block;
+} 
+
+#fb:hover, #git:hover, #ln:hover{        
+  transform: rotate(360deg);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;  
+}
+
+#fb, #git, #ln, .social-icon{
+  border-radius: 50px;
+}
+
+#fb, #git, #ln{
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s; 
+  transition: all 1s;    
+}
+
+/*=============================================
+              COMMON FORM STYLES 
+=============================================*/
+input:focus, textarea:focus {
+  box-shadow: 0 0 0 rgb(20,180,140);   
+}
+
+#errorMsg, input, textarea{
+  border-radius: 5px;    
+}
+
+input[type=text], input[type=email], textarea{
+  outline: none;    	
+  -webkit-transition: all 0.45s ease-out;
+  -moz-transition: all 0.45s ease-out;
+  -ms-transition: all 0.45s ease-out;
+  -o-transition: all 0.45s ease-out;
+  transition: all 0.45s ease-out;    	
+}
